@@ -1,0 +1,10 @@
+__pycache__/
+build/
+dist/
+*.spec
+*.ui
+*.pyc
+.vscode/
+.idea/
+*.csv
+*.xlsx
