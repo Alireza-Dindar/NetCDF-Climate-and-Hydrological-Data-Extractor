@@ -11,7 +11,7 @@ A desktop application built with Python (PyQt5) to visualize and extract data fr
 - 📊 **Excel Export:** Extracts grid point coordinates within given region and climate data within a bounding box to respectively csv. and .xlsx.
 - 🚀 **Batch Processing:** Handle multiple folders and files at once.
 
-## How to Run (Source)
+## How to Run 
 1. Clone the repository.
 2. Simply install and open the NetCDF Extractor.exe
 3. Browse and find your NetCDF data parent folder 
