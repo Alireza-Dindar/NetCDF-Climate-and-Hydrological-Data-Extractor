@@ -1,9 +1,24 @@
 # NetCDF Extractor with Map Preview for Climate and Hydrological Datas
 
 Download:
-https://github.com/1998-Alireza/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/NetCDF_Extractor_Setup/NetCDFExtractorSetup.exe
+https://github.com/1998-Alireza/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/v.1.1.0/NetCDFExtractorSetup.exe
 
-A desktop application built with Python (PyQt5) to visualize and extract data from NetCDF (.nc) files.
+New updates and fixes:
+
+-Now users are able to see and select the files they want to extract from the parent folder.
+
+-Users can select the necessary columns they want to see in excel outputs.
+
+-Issues with not displaying coordinates in preview map are now fixed
+
+-New version is compatible with ERA5 climate .NC products
+
+-Issues with desktop shortcut are now fixed
+
+-In case of massive data sizes, app automatically will convert the outputs to .CSV format to reduce the memory and space usage.
+
+----------------------------------------------------------------------------------------------------------------------
+# A desktop application built with Python (PyQt5) to visualize and extract data from NetCDF (.nc) files.
 
 ## Features
 - 🌍 **Interactive Map:** Preview grid nodes on a world map using Folium before the extraction.
