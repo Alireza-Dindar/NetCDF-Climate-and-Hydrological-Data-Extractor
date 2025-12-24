@@ -1,7 +1,7 @@
 # NetCDF Extractor with Map Preview for Climate and Hydrological Datas
 
 Download:
-https://github.com/1998-Alireza/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/v.1.1.0/NetCDFExtractorSetup.exe
+https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/v.1.1.1/NetCDFExtractorSetup.exe
 
 New updates and fixes:
 
@@ -11,7 +11,7 @@ New updates and fixes:
 
 -Issues with not displaying coordinates in preview map are now fixed
 
--New version is compatible with ERA5 climate .NC products
+-New version is compatible with ERA5 and RCM climate .NC products
 
 -Issues with desktop shortcut are now fixed
 
@@ -28,7 +28,7 @@ New updates and fixes:
 
 ## How to Run 
 
-1. Simply install and open the NetCDF Extractor.exe
+1. Simply install and open the NetCDF Extractor.exe (Run as Adminstrator) 
 2. Browse and find your NetCDF data parent folder 
 3. Select subfolders in which .NC files reside
 4. Specify coordinates of your desired region
