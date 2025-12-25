@@ -1,7 +1,7 @@
 # NetCDF Extractor with Map Preview for Climate and Hydrological Datas
 
 Download:
-[https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/v.1.1.1/NetCDFExtractorSetup.exe](https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/v.1.2.0/NetCDFExtractorSetup.exe)
+(https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/v.1.2.0/NetCDFExtractorSetup.exe)
 
 New updates and fixes:
 -User can visualzie .nc files using Bicubic interpolation tool 
