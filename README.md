@@ -3,7 +3,9 @@
 Download:
 https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/v.1.2.1/NetCDFExtractorSetup.exe
 
-New updates and fixes:<img width="500" height="500" alt="historical avg" src="https://github.com/user-attachments/assets/9a588bd8-623c-428b-9eb3-66d95ff59cc5" />
+New updates and fixes:<img width="500" height="200" alt="historical avg" src="https://github.com/user-attachments/assets/9a588bd8-623c-428b-9eb3-66d95ff59cc5" />
+
+
 
 
 -User can visualzie .nc files using Bicubic interpolation tool 
