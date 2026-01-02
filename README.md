@@ -2,10 +2,16 @@
 
 Download:
 https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/v.1.3.0/NetCDFExtractorSetup.exe
-<img width="500" height="200" alt="historical avg" src="https://github.com/user-attachments/assets/9a588bd8-623c-428b-9eb3-66d95ff59cc5" />
+
+<img width="350" height="200" alt="historical avg" src="https://github.com/user-attachments/assets/9a588bd8-623c-428b-9eb3-66d95ff59cc5" />
+<img width="443" height="358" alt="Screenshot 2026-01-02 211034" src="https://github.com/user-attachments/assets/3969d904-36c9-4fdb-9f7d-b8f7654dbce3" />
 
 
 **New updates and fixes:**
+
+-User can export visualized maps as GeoTIFF files for further use
+
+-User can preview and export animated views of the visualizations
 
 -User can visualzie .nc files using Bicubic interpolation tool 
   
