@@ -1,4 +1,4 @@
-# NetCDF Extractor with Map Preview for Climate and Hydrological Datas
+# NetCDF Extractor with Map Preview for Climate and Hydrological Data
 
 Download:
 https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/v.1.3.0/NetCDFExtractorSetup.exe
