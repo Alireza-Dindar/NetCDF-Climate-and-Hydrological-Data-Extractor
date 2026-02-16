@@ -25,26 +25,43 @@ https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor
 # A desktop application built with Python (PyQt5) to visualize and extract data from NetCDF (.nc) files.
 
 ## Features
-- 🌍 **Interactive Map:** Preview grid nodes on a world map using Folium before the extraction.
-- 📅 **Time Slicing:** Automatically detects available date ranges (in case of multiple files, shortest period will be displayed) and allows subsetting.
-- 📊 **Excel Export:** Extracts grid point coordinates within given region and climate data within a bounding box to respectively csv. and .xlsx.
-- 🚀 **Batch Processing:** Handle multiple folders and files at once.
+- 🌍 **Interactive Grid Preview Map:** Preview detected nodes on an interactive Folium map before extraction. Large node sets are handled with fast clustering and browser fallback for stability.
+- 🗺️ **Flexible Spatial Filtering:** Supports manual `lat/lon` bounding boxes and optional shapefile-based filtering/clipping (WGS84-aware).
+- 🧭 **Robust CRS Handling:** Detects projected datasets (e.g., Lambert Conformal / Daymet), applies CRS fallback when needed, and reprojects to geographic coordinates for consistent outputs.
+- 📅 **Temporal Detection and Slicing:** Automatically detects available date ranges (for multi-file cases, constrained by common overlap) and supports start/end subsetting.
+- 🎞️ **Advanced Visualization and Export:** Includes map visualization, GeoTIFF export, GeoTIFF series export, and time-series animation with optional smoothing and configurable grid scale.
+- 📊 **Extraction Outputs:** Exports node lists to CSV and extracted climate variables to Excel/CSV, with configurable frequency/statistics and skip-existing behavior.
+- 🚀 **Batch Processing:** Processes multiple folders/files in one run with live progress/log reporting and log export for debugging.
 
 ## How to Run 
 
-1. Simply install and open the NetCDF Extractor.exe (Run as Adminstrator) 
-2. Browse and find your NetCDF data parent folder 
-3. Select subfolders in which .NC files reside
-4. Specify coordinates of your desired region
-5. Click on "Detect available  date range" button if there are no previous details available
-6. Set the start and end date 
-7. [optional] Should you have checking the available grid points of the dataset in mind, press "Preview grids for selected folder" and then "Show nodes on world map". After a map displayed, tick the "All nodes in box" option in the layout menu on the top-right corner. 
-8. Filter the bands that you want to extract.
-9. Select the target folder that you want the extracted excel files to be saved. 
-10. Press "Start Extraction"
-11. In case if you need the coordinates of the nodes available within the given boundaries, press "Export grid list to CSV" and choose the target path. 
-12. In case of any errors, they will be displayed in Log box at the bottom 
-
+1. Install and launch `GeoNetX-beta.exe` (if Windows blocks permissions, run once as Administrator).
+2. Click `Browse Data Root` and select the parent folder containing your NetCDF subfolders.
+3. Select the subfolder(s) that contain `.nc` files.
+4. Define your area of interest:
+   - Enter `Lat/Lon` bounds manually, or
+   - Load a shapefile (`.shp`) and enable shapefile filtering.
+5. (Optional) Click `Detect Spatial Extent` to auto-fill coordinate bounds from selected data/shapefile.
+6. Click `Detect Temporal Extent` (or `Detect available date range`) to read available dates.
+7. Set `Start Date` and `End Date`.
+8. (Optional) Click `Load Grids` to preview available nodes, then `Show Nodes on Map`.
+9. In map preview:
+   - For small/medium grids, nodes are shown directly.
+   - For very large grids, the app may switch to a faster clustered view and open in system browser for stability.
+10. Select variables/bands to extract (`Select Columns` / band filter).
+11. Set output options:
+   - Target folder
+   - Output frequency/statistic (if needed)
+   - Skip existing files (optional)
+12. Click `Start Extraction`.
+13. (Optional) Use `Visualize Data` for:
+   - `Visualize Map`
+   - `Save GeoTIFF`
+   - `Save GeoTIFF Series`
+   - `Animate Time Series`
+   - `Approx grid scale (deg, 0=auto)` for coarse datasets.
+14. (Optional) Click `Export Grid List to CSV` to save node coordinates within current bounds.
+15. Check the `Log` panel for progress/errors; use `Export Log` for support/debugging.
  
 ---------------------------------------------------------------
 !!! Feel free to give feedbacks on GitHub or via email: alireza.dindar.1998@gmail.com !!!
