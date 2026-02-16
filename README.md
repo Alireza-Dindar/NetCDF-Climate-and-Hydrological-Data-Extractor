@@ -1,7 +1,7 @@
 # GeoNetX - NetCDF Extractor with Map Preview for Climate and Hydrological Data
 
 Download:
-https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/v.1.3.1/NetCDFExtractorSetup_1.3.1.exe
+https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/Beta/GeoNetXSetup_Beta.exe
 
 
 <img width="443" height="358" alt="historical avg" src="https://github.com/user-attachments/assets/9a588bd8-623c-428b-9eb3-66d95ff59cc5" />
