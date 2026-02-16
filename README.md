@@ -10,8 +10,6 @@ https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor
 
 <img width="750" height="437" alt="image" src="https://github.com/user-attachments/assets/877515d9-0603-47db-8eae-3c3159e7b6d6" />
 
-<img width="950" height="500" alt="image" src="https://github.com/user-attachments/assets/eda56a2c-82e3-437a-bcb5-b67f960f60eb" />
-
 
 **New updates and fixes:**
 - Improved UI
