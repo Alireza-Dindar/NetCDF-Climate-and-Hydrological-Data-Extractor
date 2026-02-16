@@ -1,4 +1,4 @@
-# NetCDF Extractor with Map Preview for Climate and Hydrological Data
+# GeoNetX - NetCDF Extractor with Map Preview for Climate and Hydrological Data
 
 Download:
 https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor/releases/download/v.1.3.1/NetCDFExtractorSetup_1.3.1.exe
@@ -6,29 +6,22 @@ https://github.com/Alireza-Dindar/NetCDF-Climate-and-Hydrological-Data-Extractor
 
 <img width="443" height="358" alt="historical avg" src="https://github.com/user-attachments/assets/9a588bd8-623c-428b-9eb3-66d95ff59cc5" />
 
-
 <img width="443" height="358" alt="Screenshot 2026-01-02 211034" src="https://github.com/user-attachments/assets/3969d904-36c9-4fdb-9f7d-b8f7654dbce3" />
+
+<img width="750" height="437" alt="image" src="https://github.com/user-attachments/assets/877515d9-0603-47db-8eae-3c3159e7b6d6" />
+
+<img width="950" height="500" alt="image" src="https://github.com/user-attachments/assets/eda56a2c-82e3-437a-bcb5-b67f960f60eb" />
 
 
 **New updates and fixes:**
-
--User can export visualized maps as GeoTIFF files for further use
-
--User can preview and export animated views of the visualizations
-
--User can visualzie .nc files using Bicubic interpolation tool 
-  
--Now users are able to see and select the files they want to extract from the parent folder.
-
--Users can select the necessary columns they want to see in excel outputs.
-
--Issues with not displaying coordinates in preview map are now fixed
-
--New version is compatible with ERA5 and RCM climate .NC products
-
--Issues with desktop shortcut are now fixed
-
--In case of massive data sizes, app automatically will convert the outputs to .CSV format to reduce the memory and space usage.
+- Improved UI
+- Added aggregation options for extraction
+- New feature which enables user to clip the maps and data using Shapfile(.shp) boundaries 
+- Fixed issues with metric coordinate projections (e.g. UTM, Lambert, ...)
+- Added multiple GeoTiff series exporting option
+- Added scale factor for enhance shapefile clipping in visualization part
+- Now app supports Persian (Farsi) language
+- App is tested for NASA Daymet, GLEAM, ERA5, CHIRPS, GCM and RCM datasets. 
 
 ----------------------------------------------------------------------------------------------------------------------
 # A desktop application built with Python (PyQt5) to visualize and extract data from NetCDF (.nc) files.
